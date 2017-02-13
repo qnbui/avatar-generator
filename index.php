@@ -12,8 +12,6 @@
     
     <body>
     
-        <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Drop Me!</a>
-    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.js"></script>
     </body>

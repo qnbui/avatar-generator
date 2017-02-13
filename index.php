@@ -14,11 +14,15 @@
         
         <div class="container">
         
-            <nav>
+            <navigation>
                 
+                <div class="row">
                 
+                    <img class="col s2" src="view/img/zombie_logo.jpg" />
+                    
+                </div>
                 
-            </nav>
+            </navigation>
             
         </div>
     

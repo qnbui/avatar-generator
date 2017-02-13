@@ -3,3 +3,19 @@
     display: inline-block;
     margin-top: 2.5em;
 }
+
+
+img 
+{
+    height: 100px;
+}
+
+body > div.container > div > button.slick-prev.slick-arrow
+{
+    background-color: red;
+}
+
+body > div.container > div > button.slick-next.slick-arrow
+{
+    background-color: red;
+}

@@ -19,6 +19,8 @@
             <div class="row"> 
                 
                 <img class="col s2" src="view/img/zombie_logo.jpg" /> 
+                
+                <a class="col s3 offset-s2 grey lighten-2 waves-effect waves-light btn">button</a>
             
             </div>
             

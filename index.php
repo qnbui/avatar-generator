@@ -20,7 +20,7 @@
             
             <div class="row"> 
                 
-                <img class="col s2" src="view/img/zombie_logo.jpg" /> 
+                <img class="col s2" src="view/img/Rainbow_Zombies.png" /> 
                 
                 <a id="random" class="col s3 offset-s2 red waves-effect waves-light btn">Aléatoire</a>
                 

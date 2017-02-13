@@ -6,6 +6,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.css"/>
     <link rel="stylesheet" href="view/css/style.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta charset="utf-8"/>
     <title>Face_Generator_Solo</title>
     
@@ -13,7 +14,7 @@
     
     <body>
         
-    <div class="grey darken-4">
+    <div style="background-color: #0e0c0d">
         
         <div class="container">
             
@@ -21,7 +22,9 @@
                 
                 <img class="col s2" src="view/img/zombie_logo.jpg" /> 
                 
-                <a id="random" class="col s3 offset-s2 red waves-effect waves-light btn">Random</a>
+                <a id="random" class="col s3 offset-s2 red waves-effect waves-light btn">Aléatoire</a>
+                
+                <a id="random" class="col s3 offset-s2 blue waves-effect waves-light btn"><span>Télécharger</span><i class="material-icons">system_update_alt</i></a>
             
             </div>
             

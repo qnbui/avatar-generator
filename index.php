@@ -12,20 +12,20 @@
     
     <body>
         
-        <div class="container">
+    <div class="grey darken-4">
         
-            <navigation>
+        <div class="container">
+            
+            <div class="row"> 
                 
-                <div class="row">
-                
-                    <img class="col s2" src="view/img/zombie_logo.jpg" />
-                    
-                </div>
-                
-            </navigation>
+                <img class="col s2" src="view/img/zombie_logo.jpg" /> 
+            
+            </div>
             
         </div>
-    
+        
+    </div>
+        
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.js"></script>
     </body>

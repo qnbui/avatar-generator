@@ -37,14 +37,16 @@
 <div class="container" style="height: 30%">
     <div class="face" style="height: 10%"> 
         
-        <img src="view/img/hairs/hairs_1.png" !important/> 
-        <img src="view/img/hairs/hairs_2.png" !important/> 
-        <img src="view/img/hairs/hairs_3.png" !important/> 
-        <img src="view/img/hairs/hairs_4.png" !important/> 
-        <img src="view/img/hairs/hairs_5.png" !important/> 
-        <img src="view/img/hairs/hairs_5.png" !important/> 
-        <img src="view/img/hairs/hairs_7.png" !important/> 
-        <img src="view/img/hairs/hairs_8.png" !important/> 
+        <img src="view/img/hairs/hairs_1.png"/> 
+        <img src="view/img/hairs/hairs_2.png"/> 
+        <img src="view/img/hairs/hairs_3.png"/> 
+        <img src="view/img/hairs/hairs_4.png"/> 
+        <img src="view/img/hairs/hairs_5.png"/> 
+        <img src="view/img/hairs/hairs_5.png"/> 
+        <img src="view/img/hairs/hairs_7.png"/> 
+        <img src="view/img/hairs/hairs_8.png"/> 
+        <img src="view/img/hairs/hairs_9.png"/>
+        <img src="view/img/hairs/hairs_10.png"/>
     </div>
     
     <div class="face"> 

@@ -34,9 +34,20 @@
         
     </div>
         
-
-        
-  <div class="your-class">
+<div class="container">
+      <div class="face">
+    <img src="view/img/hairs/hairs_1.png"/>
+    <img src="view/img/hairs/hairs_2.png"/>
+    <img src="view/img/hiars/hairs_3.png"/>
+    <img src="view/img/hiars/hairs_4.png"/>
+    <img src="view/img/hiars/hairs_5.png"/>
+    <img src="view/img/hiars/hairs_6.png"/>
+    <img src="view/img/hiars/hairs_7.png"/>
+    <img src="view/img/hiars/hairs_8.png"/>
+    <img src="view/img/hiars/hairs_9.png"/>
+    <img src="view/img/hiars/hairs_10.png"/>
+  </div>      
+  <div class="face">
     <img src="view/img/eyes/eyes_1.png"/>
     <img src="view/img/eyes/eyes_2.png"/>
     <img src="view/img/eyes/eyes_3.png"/>
@@ -46,12 +57,10 @@
     <img src="view/img/eyes/eyes_7.png"/>
     <img src="view/img/eyes/eyes_8.png"/>
     <img src="view/img/eyes/eyes_9.png"/>
+    <img src="view/img/eyes/eyes_10.png"/>
   </div>
-     <div class="your-class">
-    <img src="view/img/eyes/eyes_1.png"/>
-    <img src="view/img/eyes/eyes_1.png"/>
-    <img src="view/img/eyes/eyes_1.png"/>
-  </div>
+    
+    </div>
         
     
         
@@ -62,7 +71,7 @@
         
      <script type="text/javascript">
     $(document).ready(function(){
-      $('.your-class').slick({
+      $('.face').slick({
       });
     });
   </script>

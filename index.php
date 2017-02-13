@@ -24,7 +24,7 @@
                 
                 <a id="random" class="col s3 offset-s2 red waves-effect waves-light btn">Aléatoire</a>
                 
-                <a id="random" class="col s3 offset-s2 blue waves-effect waves-light btn"><span>Télécharger</span><i class="material-icons">system_update_alt</i></a>
+                <a id="random" class="col s3 offset-s2 blue waves-effect waves-light btn"><span style="vertical-align: super">Télécharger</span> <i class="material-icons">system_update_alt</i></a>
             
             </div>
             

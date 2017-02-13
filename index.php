@@ -5,6 +5,8 @@
 <head>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.css"/>
+    <link rel="stylesheet" type="text/css" href="view/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="view/css/slick-theme.css"/>
     <link rel="stylesheet" href="view/css/style.css"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta charset="utf-8"/>
@@ -32,16 +34,40 @@
         
     </div>
         
-    <section>
+
         
-        
-        
-    </section>
+  <div class="your-class">
+    <img src="view/img/eyes/eyes_1.png"/>
+    <img src="view/img/eyes/eyes_2.png"/>
+    <img src="view/img/eyes/eyes_3.png"/>
+    <img src="view/img/eyes/eyes_4.png"/>
+    <img src="view/img/eyes/eyes_5.png"/>
+    <img src="view/img/eyes/eyes_6.png"/>
+    <img src="view/img/eyes/eyes_7.png"/>
+    <img src="view/img/eyes/eyes_8.png"/>
+    <img src="view/img/eyes/eyes_9.png"/>
+  </div>
+     <div class="your-class">
+    <img src="view/img/eyes/eyes_1.png"/>
+    <img src="view/img/eyes/eyes_1.png"/>
+    <img src="view/img/eyes/eyes_1.png"/>
+  </div>
         
     
         
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.js"></script>
+    <script type="text/javascript" src="view/js/slick.js"></script>
+        
+        
+     <script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick({
+      });
+    });
+  </script>
+        
+        
     </body>
     
 </html>

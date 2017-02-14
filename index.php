@@ -48,7 +48,7 @@
         <img src="view/img/hairs/hairs_3.png"/> 
         <img src="view/img/hairs/hairs_4.png"/> 
         <img src="view/img/hairs/hairs_5.png"/> 
-        <img src="view/img/hairs/hairs_5.png"/> 
+        <img src="view/img/hairs/hairs_6.png"/> 
         <img src="view/img/hairs/hairs_7.png"/> 
         <img src="view/img/hairs/hairs_8.png"/> 
         <img src="view/img/hairs/hairs_9.png"/>
@@ -61,7 +61,8 @@
         <img src="view/img/eyes/eyes_2.png" /> 
         <img src="view/img/eyes/eyes_3.png" /> 
         <img src="view/img/eyes/eyes_4.png" /> 
-        <img src="view/img/eyes/eyes_5.png" />  
+        <img src="view/img/eyes/eyes_5.png" /> 
+         <img src="view/img/eyes/eyes_6.png" />  
         <img src="view/img/eyes/eyes_7.png" /> 
         <img src="view/img/eyes/eyes_8.png" /> 
         <img src="view/img/eyes/eyes_9.png" /> 

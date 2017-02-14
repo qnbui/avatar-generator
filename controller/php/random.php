@@ -23,7 +23,7 @@
                 
                 <img class="col s2" src="../../view/img/Rainbow_Zombies.png" />
 
-                <form action="controller/php/random.php" method="post">
+                <form action="random.php" method="post">
                     <button name="rand" type="submit" id="random" class="col s3 offset-s2 red waves-effect waves-light btn">Aléatoire</button>
                 </form>
 

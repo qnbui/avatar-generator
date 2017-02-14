@@ -1,6 +1,7 @@
 <?php
 
-//function random
+ if (isset($_POST("rand"))) {
+
 
 function hairs(){
     $imagesDir = glob('../view/img/hairs', GLOB_ONLYDIR);
@@ -36,3 +37,4 @@ function mouth(){
     $randomImagemouth = $images[array_rand($images)];
     echo '<img src="'.$randomImagemouth.'" class="image">';
 }
+};

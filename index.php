@@ -1,4 +1,4 @@
-<?php 'controller/sql/requete_last_five.php' ?>
+<?php include 'model/pdo.php'; ?>
 <!DOCTYPE html>
 
 <html>
@@ -102,6 +102,20 @@
     </div>
     
 </div>
+        
+        <div>
+            
+        <?php
+        $response = $dbh->query("SELECT face FROM head ORDER BY id_face DESC LIMIT 0,5 ");
+
+while ($donnees = $response->fetch())
+{
+?>
+    <p>
+    <?php echo $donnees['face']; ?><br />
+   </p>
+<?php } $response->closeCursor(); ?>
+        </div>
         
     
         

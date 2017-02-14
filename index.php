@@ -39,8 +39,9 @@
     </div>
 	
         
-<div class="container" style="height: 30%">
-    <div class="face" style="height: 10%"> 
+<div class="container">
+    
+    <div class="face"> 
         
         <img src="view/img/hairs/hairs_1.png"/> 
         <img src="view/img/hairs/hairs_2.png"/> 

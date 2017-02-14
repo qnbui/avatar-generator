@@ -4,13 +4,10 @@
 
 <head>
     
-<<<<<<< Updated upstream
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.css"/>
     <link rel="stylesheet" type="text/css" href="view/css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="view/css/slick-theme.css"/>
-=======
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.css"/>-->
->>>>>>> Stashed changes
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.css"/>
     <link rel="stylesheet" href="view/css/style.css"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta charset="utf-8"/>
@@ -30,7 +27,7 @@
                 
                 <a id="random" class="col s3 offset-s2 red waves-effect waves-light btn">Aléatoire</a>
                 
-                <a id="download" class="col s3 offset-s2 blue waves-effect waves-light btn" onclick="avatar()><span style="vertical-align: super">Télécharger</span> <i class="material-icons">system_update_alt</i></a>
+                <a id="download" class="col s3 offset-s2 blue waves-effect waves-light btn" onclick="avatar()"><span style="vertical-align: super">Télécharger</span> <i class="material-icons">system_update_alt</i></a>
             
             </div>
             

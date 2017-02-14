@@ -23,18 +23,10 @@
             
             <div class="row"> 
                 
-<<<<<<< Updated upstream
                 <img class="col s2" src="view/img/Rainbow_Zombies.png" /> 
                 
                 <a id="random" class="col s3 offset-s2 red waves-effect waves-light btn">Aléatoire</a>
                 
-=======
-                <img class="col s2" src="view/img/Rainbow_Zombies.png" />
-
-                <form action="/controller/php/random.php" method="post">
-                <a id="random" name="rand" class="col s3 offset-s2 red waves-effect waves-light btn">Aléatoire</a>
-                </form>
->>>>>>> Stashed changes
                 <a id="download" class="col s3 offset-s2 blue waves-effect waves-light btn" onclick="avatar()"><span style="vertical-align: super">Télécharger</span> <i class="material-icons">system_update_alt</i></a>
             
             </div>
@@ -42,16 +34,6 @@
         </div>
         
     </div>
-	
-	<div class="container">
-		<div class="row">
-			<img class="col s12" src="view/img/hairs/hairs_1.png">
-			<img class="col s12" src="view/img/eyes/eyes_1.png">
-			<img class="col s12" src="view/img/nose/nose_1.png">
-			<img class="col s12" src="view/img/mouth/mouth_1.png">
-		</div>
-		
-	</div>
 	
         
 <div class="container" style="height: 30%">
@@ -120,8 +102,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.js"></script>
     <script type="text/javascript" src="view/js/slick.js"></script>
-	<script src="view/js/html2canvas.js"></script>
-	<script src="view/js/face_enregistrer.js"></script>
         
         
      <script type="text/javascript">

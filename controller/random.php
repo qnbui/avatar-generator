@@ -1,6 +1,6 @@
 <?php
 
- if (isset($_POST("rand"))) {
+ if (isset($_POST["rand"])) {
 
 
 function hairs(){

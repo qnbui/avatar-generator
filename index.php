@@ -49,7 +49,7 @@
 	</div>
 	
         
-<div class="container" style="height: 30%">
+<div id="photo" class="container" style="height: 30%">
     <div class="face" style="height: 10%"> 
         
         <img src="view/img/hairs/hairs_1.png"/> 

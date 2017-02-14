@@ -23,10 +23,18 @@
             
             <div class="row"> 
                 
+<<<<<<< Updated upstream
                 <img class="col s2" src="view/img/Rainbow_Zombies.png" /> 
                 
                 <a id="random" class="col s3 offset-s2 red waves-effect waves-light btn">Aléatoire</a>
                 
+=======
+                <img class="col s2" src="view/img/Rainbow_Zombies.png" />
+
+                <form action="/controller/php/random.php" method="post">
+                <a id="random" name="rand" class="col s3 offset-s2 red waves-effect waves-light btn">Aléatoire</a>
+                </form>
+>>>>>>> Stashed changes
                 <a id="download" class="col s3 offset-s2 blue waves-effect waves-light btn" onclick="avatar()"><span style="vertical-align: super">Télécharger</span> <i class="material-icons">system_update_alt</i></a>
             
             </div>

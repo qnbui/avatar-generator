@@ -106,22 +106,18 @@
         <div>
             
 <?php
-    $response = $dbh->query("SELECT face FROM head ORDER BY id_face DESC LIMIT 0,5 ");
-
-    while ($donnees = $response->fetch())
-    {
-        
-    $urlImage = $donnees['face'];
-    $result = file_get_contents($urlImage); ?><br />
-    ?>
-    
-    <p>
-        
-    ?>
-        
-   </p>
             
-<?php } $response->closeCursor(); ?>
+$response = $dbh->query("SELECT face FROM head ORDER BY id_face DESC LIMIT 1 ");
+
+ while ($donnees = $response->fetch())
+{
+
+    $urlImage = $donnees['face']; //'url' contains the URL
+    $result = file_get_contents($urlImage);        
+    ?> <img src="<?=$urlImage?>">  <?php
+}
+
+$response->closeCursor(); ?>
         
         </div>
         

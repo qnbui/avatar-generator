@@ -17,6 +17,15 @@
 </head>
 
     <body>
+        
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
     <div style="background-color: #0e0c0d">
 
@@ -110,6 +119,11 @@
         <div>
     </div>
 </div>
+    
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<g:plus action="share"></g:plus>
+
+<div class="fb-share-button" data-href="http://ryanf.marmier.codeur.online/February/Work/Team/avatar-generator/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fryanf.marmier.codeur.online%2FFebruary%2FWork%2FTeam%2Favatar-generator%2F&amp;src=sdkpreparse">Partager</a></div>
 
 <?php
 

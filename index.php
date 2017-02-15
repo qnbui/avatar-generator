@@ -44,7 +44,7 @@
 
     <div class="container">
 
-        <div class="container">
+        <div class="container" id="photo">
 
     <div class="face">
 
@@ -132,6 +132,9 @@ $response->closeCursor(); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.js"></script>
     <script type="text/javascript" src="view/js/slick.js"></script>
+	<script src="view/js/html2canvas.js"></script>
+	<script src="view/js/face_enregistrer.js"></script>
+	
 
 
      <script type="text/javascript">

@@ -42,6 +42,10 @@
         
 <div class="container">
     
+    <div class="container">
+        
+        <div class="container">
+    
     <div class="face"> 
         
         <img src="view/img/hairs/hairs_1.png"/> 
@@ -104,6 +108,8 @@
 </div>
         
         <div>
+    </div>
+</div>
             
 <?php
             

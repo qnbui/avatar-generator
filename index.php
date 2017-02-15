@@ -1,3 +1,4 @@
+<?php include 'model/pdo.php'; ?>
 <!DOCTYPE html>
 
 <html>
@@ -48,7 +49,7 @@
         <img src="view/img/hairs/hairs_3.png"/> 
         <img src="view/img/hairs/hairs_4.png"/> 
         <img src="view/img/hairs/hairs_5.png"/> 
-        <img src="view/img/hairs/hairs_5.png"/> 
+        <img src="view/img/hairs/hairs_6.png"/> 
         <img src="view/img/hairs/hairs_7.png"/> 
         <img src="view/img/hairs/hairs_8.png"/> 
         <img src="view/img/hairs/hairs_9.png"/>
@@ -61,7 +62,8 @@
         <img src="view/img/eyes/eyes_2.png" /> 
         <img src="view/img/eyes/eyes_3.png" /> 
         <img src="view/img/eyes/eyes_4.png" /> 
-        <img src="view/img/eyes/eyes_5.png" />  
+        <img src="view/img/eyes/eyes_5.png" /> 
+         <img src="view/img/eyes/eyes_6.png" />  
         <img src="view/img/eyes/eyes_7.png" /> 
         <img src="view/img/eyes/eyes_8.png" /> 
         <img src="view/img/eyes/eyes_9.png" /> 
@@ -100,6 +102,28 @@
     </div>
     
 </div>
+        
+        <div>
+            
+<?php
+    $response = $dbh->query("SELECT face FROM head ORDER BY id_face DESC LIMIT 0,5 ");
+
+    while ($donnees = $response->fetch())
+    {
+        
+    $urlImage = $donnees['face'];
+    $result = file_get_contents($urlImage); ?><br />
+    ?>
+    
+    <p>
+        
+    ?>
+        
+   </p>
+            
+<?php } $response->closeCursor(); ?>
+        
+        </div>
         
     
         

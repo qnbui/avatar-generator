@@ -3,3 +3,4 @@ PDO.php
 pdo.php
 .idea/
 pdo.php
+vendor/*

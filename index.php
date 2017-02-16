@@ -134,70 +134,71 @@ $res = $dbh->query($sql); ?>
 
         <?php
         
-        if ($res->rowCount() == 0)
-        {
-        ?> <p>Vous n'avez pas généré d'avatars</p> <?php
-        }
-        
-        else if ($res->rowCount() == 1)
-            
-        {
-         while ($donnees = $res->fetch())
+        while ($donnees = $res->fetch())
         {
             $urlImage = $donnees['face']; //'url' contains the URL
             $result = file_get_contents($urlImage);
-            ?> <img class="col s6 offset-s3" src="<?=$urlImage?>"> <?php
-        }
-            
+            ?>  <img class="col s4 offset-s3" src="<?=$urlImage?>"> <?php
         }
         
-        else if ($res->rowCount() == 2)
+         // while ($donnees = $res->fetch())
+        //{
+            //$urlImage = $donnees['face']; //'url' contains the URL
+            //$result = file_get_contents($urlImage);
+            //?> <!-- <img class="col s6 offset-s3" src="<?=$urlImage?>">--> <?php
+        //}
+         
             
-        {
-         while ($donnees = $res->fetch())
-        {
-            $urlImage = $donnees['face']; //'url' contains the URL
-            $result = file_get_contents($urlImage);
-            ?> <img class="col s6 offset-s3" src="<?=$urlImage?>"> <?php
-        }
-            
-        }
+        //}
         
-        else if ($res->rowCount() == 3)
+        //else if ($res->rowCount() == 2)
             
-        {
-         while ($donnees = $res->fetch())
-        {
-            $urlImage = $donnees['face']; //'url' contains the URL
-            $result = file_get_contents($urlImage);
-            ?> <img class="col s6 offset-s3" src="<?=$urlImage?>"> <?php
-        }
+        //{
+         //while ($donnees = $res->fetch())
+        //{
+            //$urlImage = $donnees['face']; //'url' contains the URL
+            //$result = file_get_contents($urlImage);
+            //?> <!-- <img class="col s6 offset-s3" src="<?=$urlImage?>">--> <?php
+        //}
+         
             
-        }
+        //}
         
-        else if ($res->rowCount() == 4)
+        //else if ($res->rowCount() == 3)
             
-        {
-         while ($donnees = $res->fetch())
-        {
-            $urlImage = $donnees['face']; //'url' contains the URL
-            $result = file_get_contents($urlImage);
-            ?> <img class="col s6 offset-s3" src="<?=$urlImage?>"> <?php
-        }
+        //{
+         //while ($donnees = $res->fetch())
+        //{
+            //$urlImage = $donnees['face']; //'url' contains the URL
+            //$result = file_get_contents($urlImage);
+            //?> <!-- <img class="col s6 offset-s3" src="<?=$urlImage?>">--> <?php
+        //}
             
-        }
+        //}
         
-        else if ($res->rowCount() >= 5)
+        //else if ($res->rowCount() == 4)
             
-        {
-         while ($donnees = $res->fetch())
-        {
-            $urlImage = $donnees['face']; //'url' contains the URL
-            $result = file_get_contents($urlImage);
-            ?> <img class="col s6 offset-s3" src="<?=$urlImage?>"> <?php
-        }
+        //{
+         //while ($donnees = $res->fetch())
+        //{
+            //$urlImage = $donnees['face']; //'url' contains the URL
+            //$result = file_get_contents($urlImage);
+            //?> <!-- <img class="col s6 offset-s3" src="<?=$urlImage?>">--> <?php
+        //}
             
-        }
+        //}
+        
+        //else if ($res->rowCount() >= 5)
+            
+        //{
+         //while ($donnees = $res->fetch())
+        //{
+            //$urlImage = $donnees['face']; //'url' contains the URL
+            //$result = file_get_contents($urlImage);
+            //?> <!--  <img class="col s6 offset-s3" src="<?=$urlImage?>">--> <?php
+        //}
+            
+        //}
         
         $response->closeCursor();
         ?>

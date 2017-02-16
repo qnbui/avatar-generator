@@ -147,7 +147,7 @@ $response = $dbh->query("SELECT face FROM head ORDER BY id_face DESC LIMIT 0,5 "
 
 <g:plus action="share"></g:plus>
 
-<div class="fb-share-button" data-href="http://ryanf.marmier.codeur.online/February/Work/Team/avatar-generator/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fryanf.marmier.codeur.online%2FFebruary%2FWork%2FTeam%2Favatar-generator%2F&amp;src=sdkpreparse">Partager</a></div>
+<div class="fb-share-button" data-href="http://quangb.marmier.codeur.online/avatar-generator/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fryanf.marmier.codeur.online%2FFebruary%2FWork%2FTeam%2Favatar-generator%2F&amp;src=sdkpreparse">Partager</a></div>
         
     </div>
     

@@ -16,7 +16,7 @@
 
 </head>
 
-    <body>
+    <body class="grey lighten-4">
         
 <div id="fb-root"></div>
 <script>(function(d, s, id) {

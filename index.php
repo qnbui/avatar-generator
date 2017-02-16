@@ -18,7 +18,7 @@
 
     <body>
         
-    <div id="fb-root"></div>
+<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -119,11 +119,6 @@
         <div>
     </div>
 </div>
-    
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-<g:plus action="share"></g:plus>
-
-<div class="fb-share-button" data-href="http://ryanf.marmier.codeur.online/February/Work/Team/avatar-generator/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fryanf.marmier.codeur.online%2FFebruary%2FWork%2FTeam%2Favatar-generator%2F&amp;src=sdkpreparse">Partager</a></div>
 
 <?php
 
@@ -142,7 +137,11 @@ $response->closeCursor(); ?>
         </div>
 
 
+<g:plus action="share"></g:plus>
 
+<div class="fb-share-button" data-href="http://ryanf.marmier.codeur.online/February/Work/Team/avatar-generator/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fryanf.marmier.codeur.online%2FFebruary%2FWork%2FTeam%2Favatar-generator%2F&amp;src=sdkpreparse">Partager</a></div>
+        
+        
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.js"></script>
     <script type="text/javascript" src="view/js/slick.js"></script>
@@ -150,7 +149,7 @@ $response->closeCursor(); ?>
 	<script src="view/js/face_enregistrer.js"></script>
 	
 
-
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
      <script type="text/javascript">
     $(document).ready(function(){
       $('.face').slick({

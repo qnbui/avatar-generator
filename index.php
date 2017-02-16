@@ -17,7 +17,7 @@
 </head>
 
     <body class="grey lighten-4">
-        
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -99,7 +99,7 @@
 
             </div>
 
-            <div class="face">
+            <div class="face" id="droppable" class="ui-widget-header">
 
                 <img src="view/img/mouth/mouth_1.png" />
                 <img src="view/img/mouth/mouth_2.png" />
@@ -114,10 +114,16 @@
 
             </div>
 
+
+
+<div id="draggable" class="ui-widget-content">
+<img src="view/img/bulle.svg" alt="bulle svg">
+</div>
+
         </div>
-        
+
     </div>
-    
+
 </div>
 
 <?php
@@ -125,34 +131,34 @@
 $response = $dbh->query("SELECT face FROM head ORDER BY id_face DESC LIMIT 0,5");
 $sql = "SELECT face FROM head ORDER BY id_face DESC LIMIT 0,5";
 $res = $dbh->query($sql); ?>
-    
-<div style="margin-top: 7em" class="container">  
-    
+
+<div style="margin-top: 7em" class="container">
+
     <div class="row">
-        
+
         <h3 style="margin-bottom: 1em; color: #2196F3; text-align: center" class="center-align">5 derniers avatars crées</h3>
 
         <?php
-        
+
         while ($donnees = $res->fetch())
         {
             $urlImage = $donnees['face']; //'url' contains the URL
             $result = file_get_contents($urlImage);
             ?>  <img class="col s4 offset-s3" src="<?=$urlImage?>"> <?php
         }
-        
+
          // while ($donnees = $res->fetch())
         //{
             //$urlImage = $donnees['face']; //'url' contains the URL
             //$result = file_get_contents($urlImage);
             //?> <!-- <img class="col s6 offset-s3" src="<?=$urlImage?>">--> <?php
         //}
-         
-            
+
+
         //}
-        
+
         //else if ($res->rowCount() == 2)
-            
+
         //{
          //while ($donnees = $res->fetch())
         //{
@@ -160,12 +166,12 @@ $res = $dbh->query($sql); ?>
             //$result = file_get_contents($urlImage);
             //?> <!-- <img class="col s6 offset-s3" src="<?=$urlImage?>">--> <?php
         //}
-         
-            
+
+
         //}
-        
+
         //else if ($res->rowCount() == 3)
-            
+
         //{
          //while ($donnees = $res->fetch())
         //{
@@ -173,11 +179,11 @@ $res = $dbh->query($sql); ?>
             //$result = file_get_contents($urlImage);
             //?> <!-- <img class="col s6 offset-s3" src="<?=$urlImage?>">--> <?php
         //}
-            
+
         //}
-        
+
         //else if ($res->rowCount() == 4)
-            
+
         //{
          //while ($donnees = $res->fetch())
         //{
@@ -185,11 +191,11 @@ $res = $dbh->query($sql); ?>
             //$result = file_get_contents($urlImage);
             //?> <!-- <img class="col s6 offset-s3" src="<?=$urlImage?>">--> <?php
         //}
-            
+
         //}
-        
+
         //else if ($res->rowCount() >= 5)
-            
+
         //{
          //while ($donnees = $res->fetch())
         //{
@@ -197,30 +203,31 @@ $res = $dbh->query($sql); ?>
             //$result = file_get_contents($urlImage);
             //?> <!--  <img class="col s6 offset-s3" src="<?=$urlImage?>">--> <?php
         //}
-            
+
         //}
-        
+
         $response->closeCursor();
         ?>
-        
+
 
 
 
 <g:plus action="share"></g:plus>
 
 <div class="fb-share-button" data-href="http://quangb.marmier.codeur.online/avatar-generator/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fryanf.marmier.codeur.online%2FFebruary%2FWork%2FTeam%2Favatar-generator%2F&amp;src=sdkpreparse">Partager</a></div>
-        
+
     </div>
-    
-</div> 
-        
-        
+
+</div>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="view/js/slick.js"></script>
 	<script src="view/js/html2canvas.js"></script>
 	<script src="view/js/face_enregistrer.js"></script>
-	
+
 
         <script src="https://apis.google.com/js/platform.js" async defer></script>
      <script type="text/javascript">
@@ -229,6 +236,18 @@ $res = $dbh->query($sql); ?>
       });
     });
   </script>
+
+  <script>
+$( function() {
+  $( "#draggable" ).draggable();
+  $( "#droppable" ).droppable({
+    drop: function( event, ui ) {
+      $( this )
+        .addClass( "ui-state-highlight" )
+    }
+  });
+} );
+</script>
 
 
     </body>

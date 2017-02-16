@@ -16,9 +16,9 @@
 
 </head>
 
-    <body>
+    <body class="grey lighten-4">
         
-    <div id="fb-root"></div>
+<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -55,94 +55,105 @@
 
         <div class="container" id="photo">
 
-    <div class="face">
+            <div class="face">
 
-        <img src="view/img/hairs/hairs_1.png"/>
-        <img src="view/img/hairs/hairs_2.png"/>
-        <img src="view/img/hairs/hairs_3.png"/>
-        <img src="view/img/hairs/hairs_4.png"/>
-        <img src="view/img/hairs/hairs_5.png"/>
-        <img src="view/img/hairs/hairs_6.png"/>
-        <img src="view/img/hairs/hairs_7.png"/>
-        <img src="view/img/hairs/hairs_8.png"/>
-        <img src="view/img/hairs/hairs_9.png"/>
-        <img src="view/img/hairs/hairs_10.png"/>
+                <img src="view/img/hairs/hairs_1.png"/>
+                <img src="view/img/hairs/hairs_2.png"/>
+                <img src="view/img/hairs/hairs_3.png"/>
+                <img src="view/img/hairs/hairs_4.png"/>
+                <img src="view/img/hairs/hairs_5.png"/>
+                <img src="view/img/hairs/hairs_6.png"/>
+                <img src="view/img/hairs/hairs_7.png"/>
+                <img src="view/img/hairs/hairs_8.png"/>
+                <img src="view/img/hairs/hairs_9.png"/>
+                <img src="view/img/hairs/hairs_10.png"/>
+            </div>
+
+            <div class="face">
+
+                <img src="view/img/eyes/eyes_1.png" />
+                <img src="view/img/eyes/eyes_2.png" />
+                <img src="view/img/eyes/eyes_3.png" />
+                <img src="view/img/eyes/eyes_4.png" />
+                <img src="view/img/eyes/eyes_5.png" />
+                 <img src="view/img/eyes/eyes_6.png" />
+                <img src="view/img/eyes/eyes_7.png" />
+                <img src="view/img/eyes/eyes_8.png" />
+                <img src="view/img/eyes/eyes_9.png" />
+                <img src="view/img/eyes/eyes_10.png" />
+
+            </div>
+
+            <div class="face">
+
+                <img src="view/img/nose/nose_1.png" />
+                <img src="view/img/nose/nose_2.png" />
+                <img src="view/img/nose/nose_3.png" />
+                <img src="view/img/nose/nose_4.png" />
+                <img src="view/img/nose/nose_5.png" />
+                <img src="view/img/nose/nose_6.png" />
+                <img src="view/img/nose/nose_7.png" />
+                <img src="view/img/nose/nose_8.png" />
+                <img src="view/img/nose/nose_9.png" />
+                <img src="view/img/nose/nose_10.png" />
+
+            </div>
+
+            <div class="face">
+
+                <img src="view/img/mouth/mouth_1.png" />
+                <img src="view/img/mouth/mouth_2.png" />
+                <img src="view/img/mouth/mouth_3.png" />
+                <img src="view/img/mouth/mouth_4.png" />
+                <img src="view/img/mouth/mouth_5.png" />
+                <img src="view/img/mouth/mouth_6.png" />
+                <img src="view/img/mouth/mouth_7.png" />
+                <img src="view/img/mouth/mouth_8.png" />
+                <img src="view/img/mouth/mouth_9.png" />
+                <img src="view/img/mouth/mouth_10.png" />
+
+            </div>
+
+        </div>
+        
     </div>
-
-    <div class="face">
-
-        <img src="view/img/eyes/eyes_1.png" />
-        <img src="view/img/eyes/eyes_2.png" />
-        <img src="view/img/eyes/eyes_3.png" />
-        <img src="view/img/eyes/eyes_4.png" />
-        <img src="view/img/eyes/eyes_5.png" />
-         <img src="view/img/eyes/eyes_6.png" />
-        <img src="view/img/eyes/eyes_7.png" />
-        <img src="view/img/eyes/eyes_8.png" />
-        <img src="view/img/eyes/eyes_9.png" />
-        <img src="view/img/eyes/eyes_10.png" />
-
-    </div>
-
-    <div class="face">
-
-        <img src="view/img/nose/nose_1.png" />
-        <img src="view/img/nose/nose_2.png" />
-        <img src="view/img/nose/nose_3.png" />
-        <img src="view/img/nose/nose_4.png" />
-        <img src="view/img/nose/nose_5.png" />
-        <img src="view/img/nose/nose_6.png" />
-        <img src="view/img/nose/nose_7.png" />
-        <img src="view/img/nose/nose_8.png" />
-        <img src="view/img/nose/nose_9.png" />
-        <img src="view/img/nose/nose_10.png" />
-
-    </div>
-
-    <div class="face">
-
-        <img src="view/img/mouth/mouth_1.png" />
-        <img src="view/img/mouth/mouth_2.png" />
-        <img src="view/img/mouth/mouth_3.png" />
-        <img src="view/img/mouth/mouth_4.png" />
-        <img src="view/img/mouth/mouth_5.png" />
-        <img src="view/img/mouth/mouth_6.png" />
-        <img src="view/img/mouth/mouth_7.png" />
-        <img src="view/img/mouth/mouth_8.png" />
-        <img src="view/img/mouth/mouth_9.png" />
-        <img src="view/img/mouth/mouth_10.png" />
-
-    </div>
-
-</div>
-
-        <div>
-    </div>
-</div>
     
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-<g:plus action="share"></g:plus>
-
-<div class="fb-share-button" data-href="http://ryanf.marmier.codeur.online/February/Work/Team/avatar-generator/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fryanf.marmier.codeur.online%2FFebruary%2FWork%2FTeam%2Favatar-generator%2F&amp;src=sdkpreparse">Partager</a></div>
+</div>
 
 <?php
 
-$response = $dbh->query("SELECT face FROM head ORDER BY id_face DESC LIMIT 0,5 ");
+$response = $dbh->query("SELECT face FROM head ORDER BY id_face DESC LIMIT 0,5 "); ?>
+    
+<div style="margin-top: 7em" class="container">  
+    
+    <div class="row">
+        
+        <h3 style="margin-bottom: 1em; color: #2196F3; text-align: center" class="center-align">5 derniers avatars crées</h3>
 
- while ($donnees = $response->fetch())
-{
+        <?php
 
-    $urlImage = $donnees['face']; //'url' contains the URL
-    $result = file_get_contents($urlImage);
-    ?> <img src="<?=$urlImage?>">  <?php
-}
+        while ($donnees = $response->fetch())
+        {
 
-$response->closeCursor(); ?>
+            $urlImage = $donnees['face']; //'url' contains the URL
+            $result = file_get_contents($urlImage);
+            ?> <img class="col s6 offset-s3" src="<?=$urlImage?>">
+            <?php
+        }
+        $response->closeCursor(); ?>
+        
 
-        </div>
 
 
+<g:plus action="share"></g:plus>
 
+<div class="fb-share-button" data-href="http://quangb.marmier.codeur.online/avatar-generator/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fryanf.marmier.codeur.online%2FFebruary%2FWork%2FTeam%2Favatar-generator%2F&amp;src=sdkpreparse">Partager</a></div>
+        
+    </div>
+    
+</div> 
+        
+        
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.js"></script>
     <script type="text/javascript" src="view/js/slick.js"></script>
@@ -150,7 +161,7 @@ $response->closeCursor(); ?>
 	<script src="view/js/face_enregistrer.js"></script>
 	
 
-
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
      <script type="text/javascript">
     $(document).ready(function(){
       $('.face').slick({

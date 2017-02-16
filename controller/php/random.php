@@ -19,9 +19,9 @@
         
         <div class="container">
             
-            <div class="row"> 
-                
-                <img class="col s2" src="../../view/img/Rainbow_Zombies.png" />
+            <div class="row">
+
+                <a href="../../index.php"><img class="col s2" src="../../view/img/Rainbow_Zombies.png" /></a>
 
                 <form action="random.php" method="post">
                     <button name="rand" type="submit" id="random" class="col s3 offset-s2 red waves-effect waves-light btn">Aléatoire</button>

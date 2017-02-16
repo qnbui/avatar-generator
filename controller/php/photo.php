@@ -1,5 +1,5 @@
 <?php
-	include"../../model/pdo.php";
+	include"PDO.php";
 	$query = $dbh->query("SELECT head.id_face FROM head");
 	$result = $query->fetchAll();
 	print_r($result);

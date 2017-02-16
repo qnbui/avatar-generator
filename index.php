@@ -122,7 +122,9 @@
 
 <?php
 
-$response = $dbh->query("SELECT face FROM head ORDER BY id_face DESC LIMIT 0,5 "); ?>
+$response = $dbh->query("SELECT face FROM head ORDER BY id_face DESC LIMIT 0,5");
+$sql = "SELECT face FROM head ORDER BY id_face DESC LIMIT 0,5";
+$res = $dbh->query($sql); ?>
     
 <div style="margin-top: 7em" class="container">  
     
@@ -131,16 +133,74 @@ $response = $dbh->query("SELECT face FROM head ORDER BY id_face DESC LIMIT 0,5 "
         <h3 style="margin-bottom: 1em; color: #2196F3; text-align: center" class="center-align">5 derniers avatars crées</h3>
 
         <?php
-
-        while ($donnees = $response->fetch())
+        
+        if ($res->rowCount() == 0)
         {
-
+        ?> <p>Vous n'avez pas généré d'avatars</p> <?php
+        }
+        
+        else if ($res->rowCount() == 1)
+            
+        {
+         while ($donnees = $res->fetch())
+        {
             $urlImage = $donnees['face']; //'url' contains the URL
             $result = file_get_contents($urlImage);
-            ?> <img class="col s6 offset-s3" src="<?=$urlImage?>">
-            <?php
+            ?> <img class="col s6 offset-s3" src="<?=$urlImage?>"> <?php
         }
-        $response->closeCursor(); ?>
+            
+        }
+        
+        else if ($res->rowCount() == 2)
+            
+        {
+         while ($donnees = $res->fetch())
+        {
+            $urlImage = $donnees['face']; //'url' contains the URL
+            $result = file_get_contents($urlImage);
+            ?> <img class="col s6 offset-s3" src="<?=$urlImage?>"> <?php
+        }
+            
+        }
+        
+        else if ($res->rowCount() == 3)
+            
+        {
+         while ($donnees = $res->fetch())
+        {
+            $urlImage = $donnees['face']; //'url' contains the URL
+            $result = file_get_contents($urlImage);
+            ?> <img class="col s6 offset-s3" src="<?=$urlImage?>"> <?php
+        }
+            
+        }
+        
+        else if ($res->rowCount() == 4)
+            
+        {
+         while ($donnees = $res->fetch())
+        {
+            $urlImage = $donnees['face']; //'url' contains the URL
+            $result = file_get_contents($urlImage);
+            ?> <img class="col s6 offset-s3" src="<?=$urlImage?>"> <?php
+        }
+            
+        }
+        
+        else if ($res->rowCount() >= 5)
+            
+        {
+         while ($donnees = $res->fetch())
+        {
+            $urlImage = $donnees['face']; //'url' contains the URL
+            $result = file_get_contents($urlImage);
+            ?> <img class="col s6 offset-s3" src="<?=$urlImage?>"> <?php
+        }
+            
+        }
+        
+        $response->closeCursor();
+        ?>
         
 
 

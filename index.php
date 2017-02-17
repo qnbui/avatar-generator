@@ -55,7 +55,7 @@
 
     <div class="container">
         
-        <div id="zombieModeDiv" class="container" id="photo">
+        <div class="container zombieModeDiv" id="photo">
 
             <div class="face">
 
@@ -123,6 +123,10 @@
         </div>
             
          </div>   
+        
+        <div id="text" class="ui-widget-content">
+            <textarea name="name" rows="4" cols="80"></textarea>
+        </div>
 
     </div>
 

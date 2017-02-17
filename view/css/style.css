@@ -8,9 +8,9 @@ body
 {
     position: absolute;
     top: -12px;
-    margin-left: 43%;
+    margin-left: 45%;
     transform: rotate(180deg);
-    width: 13%;
+    width: 10%;
 }
 
 #random, #download
@@ -22,7 +22,7 @@ body
 .zombieModeDiv
 {
     z-index: 2 !important;
-    background-color: transparent; 
+    background-color: transparent;
 }
 
 .zombieModeDivTG
@@ -85,12 +85,12 @@ body
   box-shadow: 0 9px #999;
 }
 
-#zombieModeButton:hover 
+#zombieModeButton:hover
 {
     background-color: #3e8e41
 }
 
-#zombieModeButton:active 
+#zombieModeButton:active
 {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
@@ -98,6 +98,6 @@ body
 }
 
 textarea
-{    
+{
     width: 160px;    height: 60px;    background-color: white;    resize: none;
 }

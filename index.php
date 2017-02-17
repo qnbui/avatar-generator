@@ -54,7 +54,7 @@
 <div style="margin-top: 6em" class="container">
 
     <div class="container">
-        
+
         <div class="container zombieModeDiv" id="photo">
 
             <div class="face">
@@ -115,29 +115,29 @@
                 <img src="view/img/mouth/mouth_10.png" />
 
             </div>
-        
+
 
 
         <div id="draggable" class="ui-widget-content">
         <img src="view/img/bulle.svg" alt="bulle svg">
         </div>
-            
-         </div>   
-        
         <div id="text" class="ui-widget-content">
             <textarea name="name" rows="4" cols="80"></textarea>
         </div>
 
+         </div>
+
+
     </div>
 
 </div>
-    
+
 <div style="margin-top: 3em" class="container">
-    
+
      <div class="row">
-    
+
          <div class="center-align"><button onclick id="zombieModeButton" class="button">Zombie Mode!</button></div>
-         
+
     </div>
 
 </div>
@@ -145,7 +145,7 @@
 <?php
 
 //$response = $dbh->query("SELECT face FROM head ORDER BY id_face DESC LIMIT 0,5");
-        
+
 $sql = "SELECT face FROM head ORDER BY id_face DESC LIMIT 0,5";
 $res = $dbh->query($sql); ?>
 

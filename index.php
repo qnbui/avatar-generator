@@ -54,6 +54,8 @@
 <div style="margin-top: 6em" class="container">
 
     <div class="container">
+        
+        <div id="zombieMode">
 
         <div class="container" id="photo">
 
@@ -115,6 +117,7 @@
                 <img src="view/img/mouth/mouth_10.png" />
 
             </div>
+        </div>
 
 
 

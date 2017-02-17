@@ -19,7 +19,7 @@ body
 }
 
 
-body > div.container > div > div.container > div > button.slick-prev.slick-arrow
+#photo > div > button.slick-prev.slick-arrow
 {
     z-index: 5;
     background-color: #F44336;
@@ -28,7 +28,7 @@ body > div.container > div > div.container > div > button.slick-prev.slick-arrow
     border-radius: 0px 10px 0px 10px;
 }
 
-body > div.container > div > div.container > div > button.slick-prev.slick-arrow:before
+#photo > div > button.slick-prev.slick-arrow:before
 {
     position: relative;
     bottom: 22px;
@@ -36,7 +36,7 @@ body > div.container > div > div.container > div > button.slick-prev.slick-arrow
     font-size: 40px;
 }
 
-body > div.container > div > div.container > div > button.slick-next.slick-arrow
+#photo > div > button.slick-next.slick-arrow
 {
     z-index: 5;
     background-color: #2196F3;
@@ -45,7 +45,7 @@ body > div.container > div > div.container > div > button.slick-next.slick-arrow
     border-radius: 0px 10px 0px 10px;
 }
 
-body > div.container > div > div.container > div > button.slick-next.slick-arrow:before
+#photo > div > button.slick-next.slick-arrow:before
 {
     position: relative;
     bottom: 22px;

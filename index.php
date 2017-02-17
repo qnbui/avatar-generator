@@ -55,9 +55,7 @@
 
     <div class="container">
         
-        <div>
-
-        <div id="zombieMode" class="container" id="photo">
+        <div id="zombieModeDiv" class="container" id="photo">
 
             <div class="face">
 
@@ -117,16 +115,25 @@
                 <img src="view/img/mouth/mouth_10.png" />
 
             </div>
+        
+
+
+        <div id="draggable" class="ui-widget-content">
+        <img src="view/img/bulle.svg" alt="bulle svg">
         </div>
+            
+         </div>   
 
+    </div>
 
-
-<div id="draggable" class="ui-widget-content">
-<img src="view/img/bulle.svg" alt="bulle svg">
 </div>
-
-        </div>
-
+    
+<div style="margin-top: 3em" class="container">
+    
+     <div class="row">
+    
+         <div class="center-align"><button id="zombieModeButton" class="button">Zombie Mode!</button></div>
+         
     </div>
 
 </div>
@@ -244,15 +251,7 @@ $res = $dbh->query($sql); ?>
   </script>
 
   <script>
-$( function() {
-  $( "#draggable" ).draggable();
-  $( "#droppable" ).droppable({
-    drop: function( event, ui ) {
-      $( this )
-        .addClass( "ui-state-highlight" )
-    }
-  });
-} );
+$( function() {  $( "#text" ).draggable();  $( "#draggable" ).draggable();  $( "#droppable" ).droppable({    drop: function( event, ui ) {      $( this )        .addClass( "ui-state-highlight" )    }  });} );
 </script>
 
 

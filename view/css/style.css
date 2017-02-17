@@ -18,19 +18,19 @@ body
     margin-top: 2.5em;
 }
 
-#zombieMode
+#zombieModeDiv
 {
     z-index: 2 !important;
     background-color: rgba(0, 255, 0, 0.3);
 }
 
-#zombieMode > div > div
+#zombieModeDiv > div > div
 {
     z-index:-1;
 }
 
 
-#zombieMode > div > button.slick-prev.slick-arrow
+#zombieModeDiv > div > button.slick-prev.slick-arrow
 {
     z-index: 5;
     background-color: #F44336;
@@ -39,7 +39,7 @@ body
     border-radius: 0px 10px 0px 10px;
 }
 
-#zombieMode > div > button.slick-prev.slick-arrow:before
+#zombieModeDiv > div > button.slick-prev.slick-arrow:before
 {
     position: relative;
     bottom: 22px;
@@ -47,7 +47,7 @@ body
     font-size: 40px;
 }
 
-#zombieMode > div > button.slick-next.slick-arrow
+#zombieModeDiv > div > button.slick-next.slick-arrow
 {
     z-index: 5;
     background-color: #2196F3;
@@ -56,11 +56,37 @@ body
     border-radius: 0px 10px 0px 10px;
 }
 
-#zombieMode > div > button.slick-next.slick-arrow:before
+#zombieModeDiv > div > button.slick-next.slick-arrow:before
 {
     position: relative;
     bottom: 22px;
     right: 12px;
     font-size: 40px;
+}
+
+
+#zombieModeButton {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#zombieModeButton:hover 
+{
+    background-color: #3e8e41
+}
+
+#zombieModeButton:active 
+{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 

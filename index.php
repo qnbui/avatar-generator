@@ -132,7 +132,7 @@
     
      <div class="row">
     
-         <div class="center-align"><button id="zombieModeButton" class="button">Zombie Mode!</button></div>
+         <div class="center-align"><button onclick id="zombieModeButton" class="button">Zombie Mode!</button></div>
          
     </div>
 

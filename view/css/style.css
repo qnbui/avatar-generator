@@ -6,10 +6,11 @@ body
 
 #logo
 {
-    margin-left: 5em;
     position: absolute;
-    top: 0px;
-    width: 10%;
+    top: -12px;
+    margin-left: 43%;
+    transform: rotate(180deg);
+    width: 13%;
 }
 
 #random, #download

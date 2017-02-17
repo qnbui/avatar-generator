@@ -16,24 +16,26 @@
 
 </head>
 
-    <body class="grey lighten-4">
+<body>
 
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+<script>
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 
-    <div style="background-color: #0e0c0d">
+ <img id="logo" src="view/img/Rainbow_Zombies.png" />
+
+    <div>
 
         <div class="container">
 
             <div class="row">
-
-                <img class="col s2" src="view/img/Rainbow_Zombies.png" />
 
                 <form action="controller/php/random.php" method="post">
                     <button name="rand" type="submit" id="random" class="col s3 offset-s2 red waves-effect waves-light btn">Aléatoire</button>
@@ -49,7 +51,7 @@
     </div>
 
 
-<div class="container">
+<div style="margin-top: 6em" class="container">
 
     <div class="container">
 
@@ -128,7 +130,8 @@
 
 <?php
 
-$response = $dbh->query("SELECT face FROM head ORDER BY id_face DESC LIMIT 0,5");
+//$response = $dbh->query("SELECT face FROM head ORDER BY id_face DESC LIMIT 0,5");
+        
 $sql = "SELECT face FROM head ORDER BY id_face DESC LIMIT 0,5";
 $res = $dbh->query($sql); ?>
 
@@ -206,7 +209,7 @@ $res = $dbh->query($sql); ?>
 
         //}
 
-        $response->closeCursor();
+        $res->closeCursor();
         ?>
 
 

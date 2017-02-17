@@ -1,3 +1,17 @@
+body
+{
+    background-image: url("../img/background/rainbowbackground.jpg");
+    background-size: cover;
+}
+
+#logo
+{
+    margin-left: 5em;
+    position: absolute;
+    top: 0px;
+    width: 10%;
+}
+
 #random, #download
 {
     display: inline-block;
@@ -7,31 +21,35 @@
 
 body > div.container > div > div.container > div > button.slick-prev.slick-arrow
 {
+    z-index: 5;
     background-color: #F44336;
-    padding: 1rem;
-    margin-left: -7px;
+    padding: 1.5rem;
+    margin-left: 4px;
+    border-radius: 0px 10px 0px 10px;
 }
 
 body > div.container > div > div.container > div > button.slick-prev.slick-arrow:before
 {
     position: relative;
-    bottom: 20px;
-    right: 18px;
-    font-size: 35px;
+    bottom: 22px;
+    right: 29px;
+    font-size: 40px;
 }
 
 body > div.container > div > div.container > div > button.slick-next.slick-arrow
 {
+    z-index: 5;
     background-color: #2196F3;
-    padding: 1rem;
-    margin-right: -7px;
+    padding: 1.5rem;
+    margin-right: 4px;
+    border-radius: 0px 10px 0px 10px;
 }
 
 body > div.container > div > div.container > div > button.slick-next.slick-arrow:before
 {
     position: relative;
-    bottom: 20px;
-    right: 18px;
-    font-size: 35px;
+    bottom: 22px;
+    right: 12px;
+    font-size: 40px;
 }
 

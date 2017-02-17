@@ -55,9 +55,7 @@
 
     <div class="container">
         
-        <div id="zombieMode">
-
-        <div class="container" id="photo">
+        <div class="container zombieModeDiv" id="photo">
 
             <div class="face">
 
@@ -117,16 +115,29 @@
                 <img src="view/img/mouth/mouth_10.png" />
 
             </div>
+        
+
+
+        <div id="draggable" class="ui-widget-content">
+        <img src="view/img/bulle.svg" alt="bulle svg">
+        </div>
+            
+         </div>   
+        
+        <div id="text" class="ui-widget-content">
+            <textarea name="name" rows="4" cols="80"></textarea>
         </div>
 
+    </div>
 
-
-<div id="draggable" class="ui-widget-content">
-<img src="view/img/bulle.svg" alt="bulle svg">
 </div>
-
-        </div>
-
+    
+<div style="margin-top: 3em" class="container">
+    
+     <div class="row">
+    
+         <div class="center-align"><button onclick id="zombieModeButton" class="button">Zombie Mode!</button></div>
+         
     </div>
 
 </div>
@@ -234,7 +245,7 @@ $res = $dbh->query($sql); ?>
 	<script src="view/js/html2canvas.js"></script>
 	<script src="view/js/face_enregistrer.js"></script>
 
-
+    <script src="view/js/zombieMode.js"></script>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
      <script type="text/javascript">
     $(document).ready(function(){
@@ -244,15 +255,7 @@ $res = $dbh->query($sql); ?>
   </script>
 
   <script>
-$( function() {
-  $( "#draggable" ).draggable();
-  $( "#droppable" ).droppable({
-    drop: function( event, ui ) {
-      $( this )
-        .addClass( "ui-state-highlight" )
-    }
-  });
-} );
+$( function() {  $( "#text" ).draggable();  $( "#draggable" ).draggable();  $( "#droppable" ).droppable({    drop: function( event, ui ) {      $( this )        .addClass( "ui-state-highlight" )    }  });} );
 </script>
 
 

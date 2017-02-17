@@ -55,9 +55,9 @@
 
     <div class="container">
         
-        <div id="zombieMode">
+        <div>
 
-        <div class="container" id="photo">
+        <div id="zombieMode" class="container" id="photo">
 
             <div class="face">
 

@@ -18,8 +18,19 @@ body
     margin-top: 2.5em;
 }
 
+#zombieMode
+{
+    z-index: 2 !important;
+    background-color: rgba(0, 255, 0, 0.3);
+}
 
-#photo > div > button.slick-prev.slick-arrow
+#zombieMode > div
+{
+    z-index:-1;
+}
+
+
+#zombieMode > div > button.slick-prev.slick-arrow
 {
     z-index: 5;
     background-color: #F44336;
@@ -28,7 +39,7 @@ body
     border-radius: 0px 10px 0px 10px;
 }
 
-#photo > div > button.slick-prev.slick-arrow:before
+#zombieMode > div > button.slick-prev.slick-arrow:before
 {
     position: relative;
     bottom: 22px;
@@ -36,7 +47,7 @@ body
     font-size: 40px;
 }
 
-#photo > div > button.slick-next.slick-arrow
+#zombieMode > div > button.slick-next.slick-arrow
 {
     z-index: 5;
     background-color: #2196F3;
@@ -45,7 +56,7 @@ body
     border-radius: 0px 10px 0px 10px;
 }
 
-#photo > div > button.slick-next.slick-arrow:before
+#zombieMode > div > button.slick-next.slick-arrow:before
 {
     position: relative;
     bottom: 22px;

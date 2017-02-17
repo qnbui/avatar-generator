@@ -22,7 +22,7 @@ body
 #zombieModeDiv
 {
     z-index: 2 !important;
-    background-color: rgba(0, 255, 0, 0.3);
+    background-color: transparent; 
 }
 
 #zombieModeDiv > div > div

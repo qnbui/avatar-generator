@@ -241,7 +241,7 @@ $res = $dbh->query($sql); ?>
 	<script src="view/js/html2canvas.js"></script>
 	<script src="view/js/face_enregistrer.js"></script>
 
-
+    <script src="view/js/zombieMode.js"></script>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
      <script type="text/javascript">
     $(document).ready(function(){

@@ -18,6 +18,4 @@ $(document).ready(function() {
         $(#zombieModeDiv).css({backgroundColor: "transparent"})
        }
     });
-});
-
-
+}); */
